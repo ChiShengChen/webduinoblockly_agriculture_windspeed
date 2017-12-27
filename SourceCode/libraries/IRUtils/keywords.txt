@@ -1,0 +1,18 @@
+#class	(KEYWORD1)
+CIRRecvCounter	KEYWORD1
+ 
+
+
+
+#function and method(KEYWORD2)
+CIRRecvCounter	KEYWORD2 
+~CIRRecvCounter	KEYWORD2 
+resetCount	KEYWORD2 
+getCount	KEYWORD2 
+IRRecvCount	KEYWORD2 
+GetPinStatus	KEYWORD2
+ 
+ 
+#constant (LITERAL1)
+
+#none		

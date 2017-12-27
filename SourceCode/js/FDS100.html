@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title></title>
+    <script src='bower_components/webduino-js/dist/webduino-all.js'></script>
+    <script src='bower_components/webduino-js/src/module/FDS100.js'></script>
+</head>
+
+<body>
+<script>
+    var board, display;
+    board = new webduino.WebArduino('qAmK');
+    board.on(webduino.BoardEvent.READY, function() {
+        console.log("board Ready...");
+        display = new webduino.module.FDS100(board);
+        display.read(function (evt) {
+            console.log(evt.humidity);
+//            console.log(evt.temperature);
+        },1000);
+
+//        console.log(data.temperature);
+    });
+</script>
+</body>
+
+</html>

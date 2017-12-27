@@ -1,0 +1,16 @@
+#class	(KEYWORD1)
+CIRRecvCounter	KEYWORD1
+ 
+
+
+
+#function and method(KEYWORD2)
+GetAnalogTypeSensorVal	KEYWORD2 
+Delay	KEYWORD2 
+dataMap	KEYWORD2 
+ 
+ 
+ 
+#constant (LITERAL1)
+
+#none		

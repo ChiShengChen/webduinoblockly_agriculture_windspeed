@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title></title>
+    <script src='bower_components/webduino-js/dist/webduino-all.js'></script>
+    <script src='bower_components/webduino-js/src/module/rain.js'></script>
+</head>
+
+<body>
+<script>
+    var board, display;
+    board = new webduino.WebArduino('2aKZ');
+    board.on(webduino.BoardEvent.READY, function() {
+        console.log("board Ready...");
+        display = new webduino.module.rain(board);
+        display.read(function (evt) {
+            console.log(display.rain);
+        },1000);
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title></title>
+    <script src='bower_components/webduino-js/dist/webduino-all.js'></script>
+    <script src='bower_components/webduino-js/src/module/IRCount.js'></script>
+</head>
+
+<body>
+<script>
+    var board, display;
+    board = new webduino.WebArduino('2aKZ');
+    board.on(webduino.BoardEvent.READY, function() {
+        console.log("board Ready...");
+        display = new webduino.module.IRCount(board, 9, 10, 4);
+        display.read(function (evt) {
+            console.log(evt.pin1count);
+            console.log(evt.pin2count);
+            console.log(evt.pin3count);
+            // display.stopRead();
+        },1000);
+    });
+</script>
+</body>
+
+</html>

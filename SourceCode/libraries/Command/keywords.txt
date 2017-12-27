@@ -1,0 +1,15 @@
+#class	(KEYWORD1)
+CIRRecvCounter	KEYWORD1
+ 
+
+
+
+#function and method(KEYWORD2)
+GetAnalogTypeSensorVal	KEYWORD2 
+SendDataToBridge	KEYWORD2 
+CheckRegStatus	KEYWORD2 
+pollingCmd	KEYWORD2
+__printf	KEYWORD2
+#constant (LITERAL1)
+
+#none		

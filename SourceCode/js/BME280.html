@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title></title>
+    <script src='bower_components/webduino-js/dist/webduino-all.js'></script>
+    <script src='bower_components/webduino-js/src/module/BME280.js'></script>
+</head>
+
+<body>
+<script>
+    var board, display;
+    board = new webduino.WebArduino('2aKZ');
+    board.on(webduino.BoardEvent.READY, function() {
+        console.log("board Ready...");
+        display = new webduino.module.BME280(board);
+        display.read(function (evt) {
+            console.log(display.humidity);
+            console.log(display.altitude);
+            console.log(display.temperature);
+            console.log(display.pressure);
+        },1000);
+    });
+</script>
+</body>
+
+</html>

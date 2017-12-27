@@ -1,0 +1,14 @@
+#class	(KEYWORD1)
+CMyTimer	KEYWORD1
+ 
+
+
+
+#function and method(KEYWORD2)
+Set	KEYWORD2 
+Start	KEYWORD2 
+LoopTimer	KEYWORD2 
+ 
+#constant (LITERAL1)
+
+#none		

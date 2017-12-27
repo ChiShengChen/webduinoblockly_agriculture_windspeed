@@ -1,0 +1,15 @@
+#class	(KEYWORD1)
+CRainUtils	KEYWORD1
+ 
+
+
+
+#function and method(KEYWORD2)
+ 
+CRainUtils	KEYWORD2
+DetectRainfall	KEYWORD2
+GetRainfall	KEYWORD2
+ 
+#constant (LITERAL1)
+
+#none		
