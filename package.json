@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-windspeed",
+  "version": "1.0.0",
+  "description": "Wind speed Module for Webduino",
+  "main": "windspeed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "windspeed"
+  ],
+  "dependencies": {
+    "webduino-js": "0.x"
+  }
+}

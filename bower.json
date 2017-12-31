@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-windspeed",
+  "description": "Wind speed Module for Webduino",
+  "main": "windspeed.js",
+  "authors": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "windspeed"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
