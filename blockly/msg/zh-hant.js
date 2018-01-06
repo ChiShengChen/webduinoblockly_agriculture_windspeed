@@ -1,0 +1,1 @@
+MSG.catWindspeed= "風速";

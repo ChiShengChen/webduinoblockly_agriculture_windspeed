@@ -2,7 +2,7 @@
   "name": "webduino-module-windspeed",
   "version": "1.0.0",
   "description": "Wind speed Module for Webduino",
-  "main": "windspeed.js",
+  "main": "Wind.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

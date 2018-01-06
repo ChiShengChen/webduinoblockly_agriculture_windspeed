@@ -1,0 +1,16 @@
+<category id="catWindspeed">
+  <block type="variables_set">
+    <field name="VAR">windspeed</field> 
+    <value name="VALUE">
+      <block type="windspeed_pin">
+        <field name="uno_Apin1">A0</field>
+      </block>
+    </value>
+  </block>
+  <block type="windspeed_sencing">
+  </block>
+  <block type="windspeed_display">
+    <field name="windspeed">windspeed</field>
+  </block>
+
+</category>

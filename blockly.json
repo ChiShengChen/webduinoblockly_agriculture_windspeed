@@ -1,0 +1,15 @@
+{
+  "types": ["windspeed_setup","windspeed_pin","windspeed_sencing","windspeed_display"],
+  "category": "catMenu3",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
+  ],
+  "dependencies": [
+    "Wind.js",
+    "Wind-blockly.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml"
+}
