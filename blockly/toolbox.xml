@@ -12,5 +12,4 @@
   <block type="windspeed_display">
     <field name="windspeed">windspeed</field>
   </block>
-
 </category>

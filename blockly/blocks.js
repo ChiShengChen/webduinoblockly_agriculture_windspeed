@@ -14,6 +14,7 @@ Blockly.Blocks['windspeed_setup'] = {
  this.setTooltip("");
  this.setHelpUrl(mainUrl + 'basic/index.html' + utmUrl);
   }
+};
 
   Blockly.Blocks['windspeed_pin'] = {
   init: function() {
@@ -42,6 +43,7 @@ Blockly.Blocks['windspeed_sencing'] = {
  this.setTooltip("");
  this.setHelpUrl(mainUrl + 'basic/index.html' + utmUrl);
   }
+};
 
 Blockly.Blocks['windspeed_display'] = {
   init: function() {
